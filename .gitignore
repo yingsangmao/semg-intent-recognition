@@ -1,0 +1,19 @@
+# Data — raw EMG dataset (UCI "EMG data for gestures"), ~251 MB.
+# Not versioned; see README.md for provenance.
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Experiment artifacts
+outputs/
+runs/
+*.pt
+*.pth
+*.h5
+*.onnx
